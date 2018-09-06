@@ -44,3 +44,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+*.bat
+*.tmp
+*.mobileprovision
+*.apk
+*.ipa

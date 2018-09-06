@@ -1,0 +1,37 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" currentTimeline="1" xflVersion="2.7" creatorInfo="Adobe Animate CC" platform="Windows" versionInfo="Saved by Animate Windows 15.1 build 210" majorVersion="15" minorVersion="1" buildNumber="210" objectsSnapTo="false" previewMode="full" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+     <timelines>
+          <DOMTimeline name="Scene 1">
+               <layers>
+                    <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.net.URLLoader;
+import flash.net.URLRequest;
+import flash.events.Event;
+
+var loader:URLLoader = new URLLoader();
+loader.addEventListener(Event.COMPLETE,rssLoaded);
+function rssLoaded(e):void
+{
+	trace(loader.data);
+}
+loader.load(new URLRequest("https://www.moi.ir/portal/rsspage/?fa-ir/news/165056/165071/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1"))]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <persistentData>
+          <PD n="ane.tmp.unzipped.folder" v="C:\Users\Admin\AppData\Local\Temp\Tmp_ANE_File_Unzipped_Packages"/>
+          <PD n="com.air.sdk.path" v="D:\air\AIRSDK_25_118"/>
+     </persistentData>
+     <PrinterSettings/>
+     <publishHistory>
+          <PublishItem publishSize="703" publishTime="1489580102"/>
+          <PublishItem publishSize="704" publishTime="1489580091"/>
+     </publishHistory>
+</DOMDocument>

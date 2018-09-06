@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html> <meta name="viewport" content="width=device-width, user-scalable=no, target-densitydpi=device-dpi"/>
+<style>
+*{margin:0;overflow:hidden;}.showVideo{width:100%;}
+body {background-color: black}}</style>
+<body>
+<!--video class="showVideo" id="showVideo1" controls>
+<source  type="video/mp4" src="D:SepehrSWFVideoaparat.mp4">Your browser does not support the video tag.
+</video-->
+</body>
+</html>
+<script>
+ addEventListener("load", function () {
+	var r = new XMLHttpRequest();
+	r.onload = function () {
+		var vid = document.createElement("video");
+		vid.addEventListener("loadedmetadata", function () {});
+		vid.addEventListener("error", function () { });
+		vid.setAttribute("autoplay", "autoplay");
+		vid.setAttribute("controls", "controls");
+		vid.setAttribute("loop", "loop");
+		vid.setAttribute("class", "showVideo");
+		vid.setAttribute("id", "showVideo1");
+		vid.setAttribute("src", URL.createObjectURL(r.response));
+		document.body.appendChild(vid);
+		
+		var scrHeight=window.innerHeight;vid.style.height=scrHeight +"px";
+	};
+	r.open("GET", "./vid.mp4");
+	r.responseType = "blob";
+	r.send();
+}, false);
+</script>
