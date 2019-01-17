@@ -33,12 +33,12 @@
 	
 	
 	<page id="sample1_page">
-	  <type>sample1</type>
+	  <type>sample3</type>
 	</page>
 	
 	
 	<page id="sample2_page">
-	  <type>sample2</type>
+	  <type>sample3</type>
 	</page>
 	
 	
@@ -48,7 +48,7 @@
 	
 	
 	<page id="sample4_page">
-	  <type>sample4</type>
+	  <type>sample3</type>
 	</page>
 	
 </app>

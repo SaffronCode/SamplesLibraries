@@ -1,0 +1,9 @@
+swfname=audioRecorder
+exportname=audioRecorder
+provision_dev=
+provision_dist=
+provision_adhoc=
+dist_xml_name=audioRecorder-app
+dev_xml_name=audioRecorder-app
+android_xml_name=audioRecorder-export-app
+contents=AppIconsForPublish
