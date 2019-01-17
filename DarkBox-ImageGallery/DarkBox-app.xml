@@ -82,10 +82,5 @@
   </iPhone>
   <customUpdateUI>false</customUpdateUI>
   <allowBrowserInvocation>false</allowBrowserInvocation>
-  <extensions>
-    <extensionID>com.distriqt.androidsupport.AppCompatV7</extensionID>
-    <extensionID>com.distriqt.androidsupport.V4</extensionID>
-    <extensionID>com.distriqt.Core</extensionID>
-    <extensionID>com.distriqt.MediaPlayer</extensionID>
-  </extensions>
+  
 </application>
