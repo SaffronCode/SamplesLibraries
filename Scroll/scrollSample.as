@@ -17,7 +17,10 @@ package
 			SliderManager
 			
 			scrollMC = Obj.get("scroll_mc",this);
-			new ScrollMT(scrollMC,new Rectangle(scrollMC.x,scrollMC.y,scrollMC.width,300),null,true);
+			
+			var leftToRightScroll:Boolean = false ;
+			
+			new ScrollMT(scrollMC,new Rectangle(scrollMC.x,scrollMC.y,scrollMC.width,300),null,!rightToLeftScroll,rightToLeftScroll);
 		}
 	}
 }
