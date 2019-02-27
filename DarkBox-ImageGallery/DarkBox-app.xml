@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<application xmlns="http://ns.adobe.com/air/application/31.0">
+  <id>com.mteamapps.test1</id>
+  <versionNumber>1.0</versionNumber>
+  <filename>DarkBox</filename>
+  <description/>
+  <name>DarkBox</name>
+  <copyright/>
+  <initialWindow>
+    <content>DarkBox.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <fullScreen>false</fullScreen>
+    <aspectRatio>portrait</aspectRatio>
+    <renderMode>gpu</renderMode>
+    <autoOrients>false</autoOrients>
+    <maximizable>true</maximizable>
+    <minimizable>true</minimizable>
+    <resizable>true</resizable>
+  </initialWindow>
+  <icon>
+  </icon>
+  <android>
+    <manifestAdditions><![CDATA[
+<manifest android:installLocation="auto">
+  <application android:hardwareAccelerated="true">
+    <service android:name="com.distriqt.extension.mediaplayer.audio.AudioPlayerService" android:enabled="true" android:exported="true"/>
+  </application>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+</manifest>
+]]></manifestAdditions>
+    <containsVideo>true</containsVideo>
+  </android>
+  <iPhone>
+    <InfoAdditions><![CDATA[
+<key>UIDeviceFamily</key>
+<array>
+  <string>1</string>
+  <string>2</string>
+</array>
+<key>UIBackgroundModes</key>
+<array>
+  <string>audio</string>
+</array>
+<key>NSAppTransportSecurity</key>
+<dict>
+  <key>NSAllowsArbitraryLoads</key>
+  <true/>
+</dict>
+]]></InfoAdditions>
+    <Entitlements><![CDATA[
+
+]]></Entitlements>
+    <requestedDisplayResolution>high</requestedDisplayResolution>
+  </iPhone>
+  <customUpdateUI>false</customUpdateUI>
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+  
+  
+  
+  
+  
+  </application>

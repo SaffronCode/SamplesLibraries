@@ -1,0 +1,9 @@
+swfname=DarkBox
+exportname=DarkBox
+provision_dev=test1Dev
+provision_dist=
+provision_adhoc=
+dist_xml_name=DarkBoxExport-app
+dev_xml_name=DarkBoxExport-app
+android_xml_name=DarkBoxExport-app
+contents= 
