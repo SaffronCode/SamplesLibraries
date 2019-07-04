@@ -1,0 +1,22 @@
+{
+	"animateOptions": {
+		"file": "PureSaffron.fla"
+	},
+	"files":
+	[
+		"PureSaffron.as"
+	],
+		"type": "app",
+		"config": "airmobile",
+		"compilerOptions": {
+			"source-path": [
+				"src/",
+				"/Users/Younes/Documents/GitHub/SaffronCode/",
+				"/Users/Younes/Documents/GitHub/ASPack/",
+			],
+			"external-library-path": [
+				"/Users/Younes/Documents/GitHub/FlexLibs-andOthers/"
+			]
+		}
+	
+}

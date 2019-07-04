@@ -29,6 +29,25 @@
 	  </links>
 	  <links/>
 	</page>
+
+	<page id="sliderMenu">
+		<type>SliderMenu</type>
+		<title></title>
+		<image></image>
+		<music></music>
+		<released/>
+		<customer/>
+		<content></content>
+		<links>
+		</links>
+		<links>
+			<link level="1" name="Adobe Air Assistant" id="sample1_page" icon=""/>
+			<link level="1" name="Json to Action Script" id="sample2_page" icon=""/>
+			<link level="1" name="Air Global Export" id="advsample3_pageocacy" icon=""/>
+			<link level="1" name="Arabic convertor" id="sample4_page" icon=""/>
+<!--			<link level="1" name="" id="" icon=""/>-->
+		</links>
+	</page>
 	
 	
 	
