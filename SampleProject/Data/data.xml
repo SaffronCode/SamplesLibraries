@@ -43,31 +43,34 @@
 		<links>
 			<link level="1" name="Adobe Air Assistant" id="sample1_page" icon=""/>
 			<link level="1" name="Json to Action Script" id="sample2_page" icon=""/>
-			<link level="1" name="Air Global Export" id="advsample3_pageocacy" icon=""/>
+			<link level="1" name="Air Global Export" id="sample3_page" icon=""/>
 			<link level="1" name="Arabic convertor" id="sample4_page" icon=""/>
-<!--			<link level="1" name="" id="" icon=""/>-->
 		</links>
 	</page>
 	
 	
 	
 	<page id="sample1_page">
-	  <type>sample3</type>
+	  <type>Page1</type>
+	  <title>Adobe Air Assistant</title>
 	</page>
 	
 	
 	<page id="sample2_page">
-	  <type>sample3</type>
+	  <type>Page2</type>
+	   <title>Json to Action Script</title>
 	</page>
 	
 	
 	<page id="sample3_page">
-	  <type>sample3</type>
+	  <type>Page3</type>
+	   <title>Air Global Export</title>
 	</page>
 	
 	
 	<page id="sample4_page">
-	  <type>sample3</type>
+	  <type>Page4</type>
+	   <title>Arabic convertor</title>
 	</page>
 	
 </app>
