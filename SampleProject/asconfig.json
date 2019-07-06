@@ -10,7 +10,7 @@
 		"config": "airmobile",
 		"compilerOptions": {
 			"source-path": [
-				"src/",
+				"/src/",
 				"/Users/Younes/Documents/GitHub/SaffronCode/",
 				"/Users/Younes/Documents/GitHub/ASPack/",
 			],
