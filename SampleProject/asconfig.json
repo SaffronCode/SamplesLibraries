@@ -1,10 +1,10 @@
 {
 	"animateOptions": {
-		"file": "PureSaffron.fla"
+		"file": "SampleProject.fla"
 	},
 	"files":
 	[
-		"PureSaffron.as"
+		"SampleProject.as"
 	],
 		"type": "app",
 		"config": "airmobile",
