@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <application xmlns="http://ns.adobe.com/air/application/32.0">
-    <id>SampleProject</id>
+    <id>test</id>
     <versionNumber>1.0</versionNumber>
     <filename>SampleProject</filename>
     <description></description>
