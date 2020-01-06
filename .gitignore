@@ -51,3 +51,11 @@ $RECYCLE.BIN/
 *.ipa
 DarkBox-ImageGallery/RECOVER_DarkBox.fla
 RollEffect/RECOVER_RollEffect.fla
+DistriqtAdMob/RECOVER_AdMobDistriqt.fla
+DistriqtAdMob\*.png
+DistriqtAdMob/AppIconsForPublish/*.png
+DistriqtAdMob/native/*.ane
+*.log
+DistriqtAdMob/exportparams
+DistriqtAdMob/asconfig.json
+DistriqtAdMob/.vscode/settings.json
