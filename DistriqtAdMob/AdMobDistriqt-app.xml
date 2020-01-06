@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<application xmlns="http://ns.adobe.com/air/application/32.0">
+<application xmlns="http://ns.adobe.com/air/application/33.0">
   <id>com.AddMobTest</id>
   <versionNumber>1.0.0</versionNumber>
   <filename>AddMobTest</filename>
@@ -79,6 +79,8 @@
 </dict>
 ]]></InfoAdditions>
     <Entitlements><![CDATA[
+<key>beta-reports-active</key>
+<true/>
 <key>get-task-allow</key>
 <true/>
 <key>aps-environment</key>
@@ -88,7 +90,6 @@
   </iPhone>
   <customUpdateUI>false</customUpdateUI>
   <allowBrowserInvocation>false</allowBrowserInvocation>
-  
   <extensions>
     <extensionID>com.distriqt.Adverts</extensionID>
     <extensionID>com.distriqt.Core</extensionID>
