@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <application xmlns="http://ns.adobe.com/air/application/33.0">
   <id>com.AddMobTest</id>
-  <versionNumber>1.0.0</versionNumber>
+  <versionNumber>1.0.1</versionNumber>
   <filename>AddMobTest</filename>
   <description/>
   <name>جیک جیک مستون</name>
@@ -77,6 +77,8 @@
   <key>NSAllowsArbitraryLoadsInWebContent</key>
   <true/>
 </dict>
+<key>GADApplicationIdentifier</key>
+<string>ca-app-pub-AAAAAAAAAAAAAAAA~XXXXXXXXXX</string>
 ]]></InfoAdditions>
     <Entitlements><![CDATA[
 <key>beta-reports-active</key>
@@ -95,5 +97,6 @@
     <extensionID>com.distriqt.Core</extensionID>
     <extensionID>com.distriqt.playservices.Ads</extensionID>
     <extensionID>com.distriqt.playservices.Base</extensionID>
+    <extensionID>com.distriqt.androidsupport.V4</extensionID>
   </extensions>
 </application>
