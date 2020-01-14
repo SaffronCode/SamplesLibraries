@@ -1,0 +1,12 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"request": "launch",
+			"program": ".\\AdMobDistriqt-app-dist.xml",
+			"preLaunchTask": "Adobe Animate: compile debug - AdMobDistriqt.fla",
+			"type": "swf",
+			"name": "Debug (desktop2)"
+		}
+	]
+}
