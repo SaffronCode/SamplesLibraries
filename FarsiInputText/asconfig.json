@@ -1,0 +1,18 @@
+{
+	"config": "airmobile",
+	"animateOptions": {
+		"file": ".\\FarsiInputText.fla"
+	},
+	"compilerOptions": {
+		"external-library-path": [],
+		"source-path": [
+			"D:\\Sepehr\\gitHub\\sepehrEngine\\SaffronEngine",
+			"D:\\Sepehr\\gitHub\\ASPack",
+			"D:\\Sepehr\\gitHub\\ASPack"
+		]
+	},
+	"files": [
+		".\\FarsiInputText.as"
+	],
+	"type": "app"
+}
