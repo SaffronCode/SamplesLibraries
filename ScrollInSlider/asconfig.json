@@ -1,0 +1,17 @@
+{
+	"type": "app",
+	"compilerOptions": {
+		"external-library-path": [],
+		"source-path": [
+			"D:\\Sepehr\\gitHub\\sepehrEngine\\SaffronEngine",
+			"D:\\Sepehr\\gitHub\\ASPack"
+		]
+	},
+	"animateOptions": {
+		"file": ".\\ScrollInSlider.fla"
+	},
+	"files": [
+		".\\Main.as"
+	],
+	"config": "airmobile"
+}
