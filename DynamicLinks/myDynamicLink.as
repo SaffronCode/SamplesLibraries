@@ -1,4 +1,4 @@
-package
+﻿package
 {
 	import appManager.displayContentElemets.LightImage;
 	
@@ -10,7 +10,7 @@ package
 		{
 			//horizontalMenu = true ;
 			super();
-			iconsPerLine = 1 ;
+			iconsPerLine = 4 ;
 		}
 	}
 }
