@@ -7,20 +7,26 @@
 	
 	import flash.display.Sprite;
 	import flash.events.MouseEvent;
+	import flash.display.MovieClip;
 	
 	public class DynamicLinksMain extends Sprite
 	{
 		private var myPage:PageData;
 
 		private var myLinks:myDynamicLink;
+
+		private var firstElement:MovieClip ;
 		
 		public function DynamicLinksMain()
 		{
 			super();
+
+			firstElement = Obj.get("first_mc",this);
 			
 			myLinks = Obj.findAllClass(myDynamicLink,this)[0];
 			
 			myPage = new PageData();
+			myPage.id = "myPage1";
 			for(var i = 0 ; i<10000 ; i++)
 			{
 				var link:LinkData = new LinkData();
@@ -36,13 +42,14 @@
 			}
 			
 			
-			
+			generateLinks(null);
 			stage.addEventListener(MouseEvent.CLICK,generateLinks);
 		}
 		
 		protected function generateLinks(event:MouseEvent):void
 		{
-			stage.removeEventListener(MouseEvent.CLICK,generateLinks);
+			//stage.removeEventListener(MouseEvent.CLICK,generateLinks);
+			myLinks.addFirstDisplayElemntForTheList(firstElement);
 			myLinks.setUp(myPage);
 		}
 	}

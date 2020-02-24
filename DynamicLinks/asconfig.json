@@ -1,0 +1,17 @@
+{
+	"animateOptions": {
+		"file": ".\\DynamicLinks.fla"
+	},
+	"config": "airmobile",
+	"files": [
+		".\\DynamicLinksMain.as"
+	],
+	"compilerOptions": {
+		"source-path": [
+			"D:\\Sepehr\\gitHub\\sepehrEngine\\SaffronEngine",
+			"D:\\Sepehr\\gitHub\\ASPack"
+		],
+		"external-library-path": []
+	},
+	"type": "app"
+}

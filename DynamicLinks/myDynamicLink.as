@@ -11,6 +11,7 @@
 			//horizontalMenu = true ;
 			super();
 			iconsPerLine = 4 ;
+			setRevertListX = true ;
 		}
 	}
 }

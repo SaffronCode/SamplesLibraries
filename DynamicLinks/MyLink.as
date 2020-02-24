@@ -1,6 +1,7 @@
-package
+﻿package
 {
 	import contents.displayPages.LinkItem;
+	import contents.LinkData;
 	
 	public class MyLink extends LinkItem
 	{
@@ -9,9 +10,9 @@ package
 			super(mouseChildAccept, searchForElements);
 		}
 		
-		override public function setIndex(index:uint):void
+		override public function setUp(linkData:LinkData):void
 		{
-			this.gotoAndStop(index+1);
+			this.gotoAndStop(getIndex()+1);
 		}
 	}
 }
