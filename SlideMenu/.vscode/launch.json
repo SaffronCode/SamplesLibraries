@@ -1,0 +1,12 @@
+{
+	"configurations": [
+		{
+			"preLaunchTask": "Adobe Animate: compile debug - SlideMenuLeft.fla",
+			"request": "launch",
+			"program": ".\\SlideMenuLeft-app.xml",
+			"type": "swf",
+			"name": "Debug (desktop2)"
+		}
+	],
+	"version": "0.2.0"
+}
